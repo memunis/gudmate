@@ -1,0 +1,405 @@
+<html>
+<head>
+		<meta property='og:title' content='GudMate'>
+		<meta property='og:description' content='GudMate will provide better services to your need!!'>
+		<meta property='og:image' content='content/images/gm_logo.png'>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+		<meta property="og:url" content="http://gudmate.com/">
+		<meta property="og:site_name" content="GUDMATE">
+		<title>GudMate</title>
+		<link rel='shortcut icon' href='content/images/gm.ico'>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta name="format-detection" content="telephone=no">
+
+		<script type="text/javascript">if(Function('/*@cc_on return document.documentMode===10@*/')()){document.documentElement.className+=' ie10';}</script>
+		<script type="text/javascript">(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+		
+		<link rel='stylesheet' href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'>
+
+		<!-- favicon -->
+		<link rel="shortcut icon" href="#">
+
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:300,400,700&amp;subset=latin,latin-ext">
+		<!-- wp_head() -->
+		
+<link rel='stylesheet' id='pe_theme_floyd-bootstrap-css'  href='content/wp-content/themes/floyd/css/bootstrap.mina5f8.css?ver=1394960485' type='text/css' media='all'>
+<link rel='stylesheet' id='pe_theme_floyd-animate-css'  href='content/wp-content/themes/floyd/css/animatea5f8.css?ver=1394960485' type='text/css' media='all'>
+<link rel='stylesheet' id='pe_theme_floyd-flexslider-css'  href='content/wp-content/themes/floyd/css/flexslidera5f8.css?ver=1394960485' type='text/css' media='all'>
+<link rel='stylesheet' id='pe_theme_floyd-owl-css'  href='content/wp-content/themes/floyd/css/owl.carousela5f8.css?ver=1394960485' type='text/css' media='all'>
+<link rel='stylesheet' id='pe_theme_floyd-style-css'  href='content/wp-content/themes/floyd/css/stylea5f8.css?ver=1394960485' type='text/css' media='all'>
+<link rel='stylesheet' id='pe_theme_floyd-red-css'  href='content/wp-content/themes/floyd/css/colors/reda5f8.css?ver=1394960485' type='text/css' media='all'>
+<link rel='stylesheet' id='pe_theme_floyd-custom-css'  href='content/wp-content/themes/floyd/css/customa5f8.css?ver=1394960485' type='text/css' media='all'>
+<link rel='stylesheet' id='pe_theme_init-css'  href='content/wp-content/themes/floyd/style65c2.css?ver=1395033240' type='text/css' media='all'>
+<link rel='stylesheet' id='contact-form-7-css'  href='content/wp-content/plugins/contact-form-7/includes/css/stylesf3df.css?ver=3.7.2' type='text/css' media='all'>
+<script type='text/javascript' src='content/wp-includes/js/comment-reply.min688f.js?ver=3.8.4'></script>
+<script type='text/javascript' src='content/wp-includes/js/jquery/jquery3e5a.js?ver=1.10.2'></script>
+<script type='text/javascript' src='content/wp-includes/js/jquery/jquery-migrate.min1576.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://maps.googleapis.com/maps/api/js?sensor=false&amp;ver=3.8.4'></script>
+<script type='text/javascript' src='content/wp-includes/js/ajxreq.js'></script>
+<script>
+function sendfdb(){
+
+	if(document.getElementById('from').value.length==0){
+		alert('Please fill the your email');
+		return;
+	}
+	if(document.getElementById('subject').value.length==0){
+		alert('Please fill the subject');
+		return;
+	}
+	if(document.getElementById('message').value.length==0){
+		alert('Please fill your feedback');
+		return;
+	}
+	var frm = document.getElementById('from').value;
+	var sub = document.getElementById('subject').value;
+	var msg = document.getElementById('message').value;
+	
+	var smurl = 'content/resources/utilities.php?action=sendfeedback&from='+frm+'&subject='+sub+'&message='+msg;
+	//alert(smurl);
+	ajxreq.get(smurl, function(outpt)
+	{
+		//alert(outpt);
+		if(outpt.indexOf('failed')>-1)
+			outpt = 'Failed to submit your feedback';
+		else
+			outpt = 'Successfully submitted';
+		alert(outpt);
+		document.getElementById('from').value='';
+		document.getElementById('subject').value='';
+		document.getElementById('message').value='';
+	});
+}
+</script>
+
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<style type="text/css">h1,h2,h3,h4,h5,h6,body,.h1,.h2,.h3,.h4,.h5,.h6{font-family:'Lato';}</style><style type="text/css" id="pe-theme-custom-colors">.topnav .navbar-nav>.active>a{color:#06a8d1;}.topnav .navbar-nav>.active>a:hover{color:#06a8d1;}.topnav .navbar-nav>.active>a:focus{color:#06a8d1;}.service:hover>.fa-stack>.fa-circle{color:#06a8d1;}.project-controls ul li a:hover{color:#06a8d1;}.plan.selected .circle-price{color:#06a8d1;}.plan.selected .btn{color:#06a8d1;}.blog a{color:#06a8d1;}.post-meta-tags a:hover{color:#06a8d1;}.required{color:#06a8d1;}.peThemeContactForm .form-group.error:after{color:#06a8d1;}.post .post-title h2 a:hover{color:#06a8d1;}.promo:hover .promo-icon{background-color:#06a8d1;}.filters li:hover{background-color:#06a8d1;}.filters li.active{background-color:#06a8d1;}.portfolio-grid li:hover .project-overlay{background-color:#06a8d1;}.plan.selected{background-color:#06a8d1;}.circle-price{background-color:#06a8d1;}.flex-control-paging li a:hover{background-color:#06a8d1;}.flex-control-paging li a.flex-active{background-color:#06a8d1;}*.btn-custom{background-color:#06a8d1;}*.btn-custom:hover{background-color:#06a8d1;}*.btn-custom:focus{background-color:#06a8d1;}*.btn-custom:active{background-color:#06a8d1;}*.btn-custom.active{background-color:#06a8d1;}.open .dropdown-toggle.btn-custom{background-color:#06a8d1;}::selection{background:#06a8d1;}.pager a:hover{background-color:#06a8d1;}.tagcloud a:hover{background-color:#06a8d1;}.commentlist .reply a:hover{background-color:#06a8d1;}.form-horizontal button:hover{background-color:#06a8d1;}.section hr{border-color:#06a8d1;}.project-controls li a:hover{border-color:#06a8d1;}.plan.selected ul li{border-color:#06a8d1;}.btn-custom{border-color:#06a8d1;}.btn-custom:hover{border-color:#06a8d1;}.btn-custom:focus{border-color:#06a8d1;}.btn-custom:active{border-color:#06a8d1;}.btn-custom.active{border-color:#06a8d1;}.open a.dropdown-toggle.btn-custom{border-color:#06a8d1;}.post blockquote p{border-color:#06a8d1;}.commentlist .bypostauthor>.comment-body>.comment-author img{border-color:#06a8d1;}</style>	
+</head>
+
+	<body class="home page page-id-163 page-parent page-template page-template-page_home-php">
+
+		<div id="mask"><div id="loader"></div></div>
+		<!-- End Preloader -->
+
+		
+			<div class="hiddenslide" data-src="content/images/blue.jpg"></div>
+
+		
+	
+	<section id="home" class="home-first-section">
+
+		<div class="container">
+			<div class="hero">
+
+				
+					<hr>
+
+					<div class="home-slider">
+						<ul class="slides">
+
+							
+								<li><h1>GUDMATE</h1></li>
+
+							
+						</ul>
+					</div>
+
+					<hr>
+
+				
+				
+<p class="center">Made for the Best</p>
+				
+			</div> <!-- End Row -->
+		</div> <!-- End Container -->
+
+	</section>
+
+		
+		
+
+<!-- Menu -->
+<header class="navbar navbar-default topnav" role="banner">
+	<div class="container">
+
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+			
+				<a href="index.html" class="navbar-brand" id="logo"><img src="content/images/gm.png" style="height:30px;">&nbsp;&nbsp;GUDMATE</a>
+
+			
+		</div>
+
+	
+		<div class="collapse navbar-collapse" id="navigation">
+
+			<ul class="nav"><li id="menu-item-130" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-home active menu-item-130"><a href="index.html">Home</a></li>
+<li id="menu-item-182" class="menu-item menu-item-type-post_type menu-item-object-page smoothscroll menu-item-182"><a href="#about">About</a></li>
+<li id="menu-item-212" class="menu-item menu-item-type-post_type menu-item-object-page smoothscroll menu-item-212"><a href="#mobile-apps-dev">Mobile Apps Dev</a></li>
+<li id="menu-item-231" class="menu-item menu-item-type-post_type menu-item-object-page smoothscroll menu-item-231"><a href="#website-dev">Website Dev</a></li>
+<li id="menu-item-231" class="menu-item menu-item-type-post_type menu-item-object-page smoothscroll menu-item-231"><a href="#hardware-considerations2">E-Marketing</a></li>
+<li id="menu-item-244" class="menu-item menu-item-type-post_type menu-item-object-page smoothscroll menu-item-244"><a href="#contact-us">CONTACT US</a></li>
+</ul>
+		</div>
+
+	</div>	
+</header>
+
+<section id="about" class="section section-about" style="background-color:#fff">
+	<div class="container">
+
+		<div class="title col-md-8 col-sm-10 col-xs-12">
+			<h1>About GUDMATE</h1>
+			<hr>
+		</div>
+
+		
+		<div class="section-content pe-wp-default"><div class="row"><div class="col-sm-6 col-xs-12" style="text-align:justify;"><p>We are one who provide better services to your need. Being well-versed in marketing, mobile and web design allows us to think bigger. We thoughtfully consider all the areas of your business and do our part in the creative arena to provide you with comprehensive, cohesive and harmonious marketing that work across all mediums and help you achieve your business goals. Whether you need someone to help your in-house creative or development team or need the entire team, we are happy to help.</p></div>
+
+		<div class="col-sm-6 col-xs-12 "><p align='justify'><strong>Our Work Process</strong>
+		Creating great design doesn&#8217;t happen by accident. It takes creativity, planning, talent and strategy. Though every company and project is unique, the design process consists of Connect, Consult, Create & Celebrate model.</p>
+		<p align='justify'>
+		<strong>Connect: </strong>We will dive in and get to know your project and your goal. This will help us determine the best way to communicate your goals into a powerful design with a purpose. 
+		<strong>Consult: </strong> Whether you have a list of clear-cut ideas or just an idea, we will be there in every step of the way to provide our professional direction and advice.
+		<strong>Create: </strong>We use all the information we gathered from you and create tailored solutions that are both aesthetically pleasing and poignant.
+		</p></div>
+
+</div>
+</div>
+
+	</div>
+</section>
+<section id="193-2" class="section section-parallax parallax" style="background-color:transparent; background-image: url('');">
+	<div class="parallax-overlay">
+		<div class="container">
+
+			
+			
+				<h4 class="center up">Delivering unique and amazing customer experiences.</h4>
+
+			
+			<div class="section-content pe-wp-default"></div>
+
+		</div>
+	</div>
+</section>
+
+<section id="mobile-apps-dev" class="section section-about" style="background-color:transparent">
+	<div class="container">
+
+		<div class="title col-md-8 col-sm-10 col-xs-12">
+			<h1>Mobile Apps Development</h1>
+			<hr>
+		</div>
+
+		
+			<p class="about-text">Few applications published in Play-Store, for which we got very good response from users.</p>
+
+		
+		<div class="section-content pe-wp-default">
+			
+		<div class="row">
+			<div class="col-sm-4 col-xs-12"><div class='service-box'>
+							<div class='service animated hiding' data-animation='fadeInUp' data-delay='500'>
+							<span class='fa-stack fa-4x'>
+							<!--<i class='fa fa-circle fa-2x fa-stack-2x'></i>
+							<i class='fa fa-bolt fa-stack-1x service-icon'></i>-->
+							<i class='fa fa-circle fa-2x fa-stack-2x'></i>
+							<img src="https://lh4.ggpht.com/C3zZYI0f_xeH0BI3L4Pd-V2MVicjvarNlk3IJgErR6UvP99KkkUBFOlPwMt9Ahrnyg=w300-rw" style="width:80px;margin-left:5px;padding-left:20px;padding-top:25px;" class='fa fa-stack-1x service-icon' />
+							</span>
+							<h3>Just A Message</h3>
+							<p style="text-align:justify;">Just a message is an android application; which provide the facility to read and choose the message from different categories namely Good morning, Good night, Best Wishes, Jokes, Quotations and many more. It is providing a facility to send the message to your contacts/friends using different means like Whatsapp, viber, hike, SMS options....</p>
+							<p style="text-align:left;vertical-align:middle;">Install the app from <a href="https://play.google.com/store/apps/details?id=com.gudmate.justamessage&rdid=com.gudmate.justamessage&rdot=1&feature=md" data-role="none" class="btn btn-empty btn-lg" target="_blank" style="vertical-align:sub;">here</a></p>
+							</div>
+						</div></div>
+			<div class="col-sm-4 col-xs-12"><div class='service-box'>
+							<div class='service animated hiding' data-animation='fadeInUp' data-delay='500'>
+							<span class='fa-stack fa-4x'>
+							<i class='fa fa-circle fa-2x fa-stack-2x'></i>
+							<img src="https://lh6.ggpht.com/w1yD8kAu_UnbW7r9ka207rhcHjEVLGswqKw6YJkDNeEXOXDRcphWCinH8T7xFCkyvEw=w300-rw" style="width:80px;margin-left:5px;padding-left:20px;padding-top:25px;" class='fa fa-stack-1x service-icon' />
+							</span>
+							<h3>Aavakaaya</h3>
+							<p style="text-align:justify;">Avakaaya.com is predominantly of Telugu content but also publishing premium English content too. Every year, Avakaaya.com is adding 300 new articles and thus becoming the online repository of great academic and intellectual values.</p>
+							<p style="text-align:left;vertical-align:middle;">Install the app from <a href="https://play.google.com/store/apps/details?id=com.gudmate.newaavakaaya&rdid=com.gudmate.newaavakaaya&rdot=1&feature=md" data-role="none" class="btn btn-empty btn-lg" target="_blank" style="vertical-align:sub;">here</a></p>
+							</div>
+						</div></div>
+			<div class="col-sm-4 col-xs-12"><div class='service-box'>
+							<div class='service animated hiding' data-animation='fadeInUp' data-delay='500'>
+							<span class='fa-stack fa-4x'>
+							<i class='fa fa-circle fa-2x fa-stack-2x'></i>
+							<img src="https://lh4.ggpht.com/F_x9VfQmzHT0Sf7O1f6174qgf8KjsUS68_JQtco3__jdnyPC2aTIV2TbwfaHUVATa7rC=w300-rw" style="width:80px;margin-left:5px;padding-left:20px;padding-top:25px;" class='fa fa-stack-1x service-icon' />
+							</span>
+							<h3>Bhakti Geeta</h3>
+							<p style="text-align:justify;">Bhakti Geeta is a devotional audio songs collection that is done in Telugu. It has different devotional God categories. and it has the option to select the song and play. After the completion of the song, it will move to the next track and play the song. It has all the Gods devotional songs collections.</p>
+							<p style="text-align:left;vertical-align:middle;">Install the app from <a href="https://play.google.com/store/apps/details?id=com.gudmate.bhaktigeeta&rdid=com.gudmate.bhaktigeeta&rdot=1&feature=md" data-role="none" class="btn btn-empty btn-lg" target="_blank" style="vertical-align:sub;">here</a></p>
+							</div>
+						</div></div>
+		</div>
+		<div class="row">			
+			<div class="col-sm-4 col-xs-12"><div class='service-box'>
+							<div class='service animated hiding' data-animation='fadeInUp' data-delay='500'>
+							<span class='fa-stack fa-4x'>
+							<i class='fa fa-circle fa-2x fa-stack-2x'></i>
+							<img src="https://lh6.ggpht.com/dO_fbPTLlBwksp9mB0dWEZ_DBIR-Qjrb-P2pxdZX1PkxoaBiZG8u5yTPiEhboMPvCNWw=w300-rw" style="width:80px;margin-left:5px;padding-left:20px;padding-top:25px;" class='fa fa-stack-1x service-icon' />
+							</span>
+							<h3>Srivari Brahmotsavams</h3>
+							<p style="text-align:justify;">Brahmotsavam is a festival of Lord Venkateswara. This is total 9 days festival to the Lord. These updates are incorporated in the application. Total of 9 daily sevas in Brahmotsavams</p>
+							<p style="text-align:left;vertical-align:middle;">Install the app from <a href="https://play.google.com/store/apps/details?id=com.gudmate.brahmotsavam&rdid=com.gudmate.brahmotsavam&rdot=1&feature=md" data-role="none" class="btn btn-empty btn-lg" target="_blank" style="vertical-align:sub;">here</a></p>
+							</div>
+						</div></div>
+			<div class="col-sm-4 col-xs-12"><div class='service-box'>
+							<div class='service animated hiding' data-animation='fadeInUp' data-delay='500'>
+							<span class='fa-stack fa-4x'>
+							<i class='fa fa-circle fa-2x fa-stack-2x'></i>
+							<img src="https://lh5.ggpht.com/uxxvCFAAcl5qjIRJjItLvG56svuYfSO2VGt-Vz_FSdLpdAgM3bH2CHIrXmaRnckbuw=w300-rw" style="width:80px;margin-left:5px;padding-left:20px;padding-top:25px;" class='fa fa-stack-1x service-icon' />
+							</span>
+							<h3>March of 10k Audio Books</h3>
+							<p style="text-align:justify;">This app brings you the pleasure of listening to highly popular novel from the past i.e. "The March of Ten Thousand" Originally written by Xenophon of Athens somewhere in mid 5th century BC, this historic write-up takes the readers back in to those exciting events of Greeko-Persian encounters.</p>
+							<p style="text-align:left;vertical-align:middle;">Install the app from <a href="https://play.google.com/store/apps/details?id=com.gudmate.marchof10kaudiobooks&rdid=com.gudmate.marchof10kaudiobooks&rdot=1&feature=md" data-role="none" class="btn btn-empty btn-lg" target="_blank" style="vertical-align:sub;">here</a></p>
+							</div>
+						</div></div>
+		</div>
+<!--<p style="text-align: center;"><a href="http://www.youtube.com/watch?v=5nOzAe2CkWc&amp;list=PL8YA1NRUx7A1zF9_llywKuSsKNySoHPNm&amp;feature=share&amp;index=5" class="btn btn-custom" target="_blank">Learn More</a></p>-->
+</div>
+
+	</div>
+</section>
+
+
+<section id="website-dev" class="section section-about" style="background-color:#fff">
+	<div class="container">
+
+		<div class="title col-md-8 col-sm-10 col-xs-12">
+			<h1>Website Development</h1>
+			<hr>
+		</div>
+
+		
+		<div class="section-content pe-wp-default">
+		
+		<div class="row"><div class="col-sm-6 col-xs-12">
+		<p style="text-align:justify;">Websites have become the number one way for people to find out more about you and your business. It has become as necessary as a business card, yet more robust than anything that existed before. We firmly believe in clear easy to navigate sites that communicate and reinforce the brand. Along with solid site architecture and well-planned UI/UX, your site’s design should be attention grabbing and make a lasting impression. Last but not least, your site should meet web standards and work across modern browsers and web-compatible devices.</p><br/><br/><br/><br/><br/><br/>
+		<br /></div>
+<div class="col-sm-6 col-xs-12 " style="margin-top:20px;"><strong>Our Clients</strong>
+<ul>
+<li><br/><img src="content/images/aavakaaya.gif" style="width:200px;cursor:pointer;" onclick="window.open('http://www.newaavakaaya.com','_blank');"></li>
+<!--<li></li>-->
+</ul>
+</div></div>
+<p>&nbsp;</p>
+</div>
+
+	</div>
+</section>
+
+<section id="hardware-considerations2" class="section section-about" style="background-color:transparent">
+	<div class="container">
+
+		<div class="title col-md-8 col-sm-10 col-xs-12">
+			<h1>E-Marketing</h1>
+			<hr>
+		</div>
+
+<center><a href="http://gudmate.com/emarketing" data-role="none" class="btn btn-empty btn-lg" target="_blank" style="vertical-align:sub;text-transform:none;"><p class="about-text">600 Flats<br>All aminities<br>Prime Location of Bangalore<br><br>Bookings opening soon..</p></a></center><br>
+
+<center><img src="imgs/master_plan.jpg" style="height:300px;width:600px;"></center>
+<!--a href="http://http://gudmate.com/emarketing" data-role="none" class="btn btn-empty btn-lg" target="_blank" style="vertical-align:sub;"><p class="about-text">600 Flats<br>All aminities<br>Center of Bangalore<br>Bookings opening soon..</p></a>
+			<p class="about-text">600 Flats<br>All aminities<br>Center of Bangalore<br>Bookings opening soon..</p-->
+
+		
+
+		<div class="section-content pe-wp-default">
+			
+</div>
+
+	</div>
+</section>
+
+
+<section id="contact-us" class="section section-parallax parallax" style="background-color:#003366; background-image: url('');">
+	<div class="parallax-overlay">
+		<div class="container">
+
+			
+				<div class="title col-md-8 col-sm-10 col-xs-12">
+					<h1>CONTACT US</h1>
+					<hr>
+				</div>
+
+			
+			
+				<h4 class="center up">You can submit your query here!</h4>
+				<!--<script type="text/javascript" src="http://feedjit.com/serve/?vv=1515&amp;tft=3&amp;dd=0&amp;wid=d04aa75dd22efb815800afedbcc5c53d&amp;pid=0&amp;proid=0&amp;bc=FFFFFF&amp;tc=000000&amp;brd1=012B6B&amp;lnk=135D9E&amp;hc=FFFFFF&amp;hfc=2853A8&amp;btn=C99700&amp;ww=200&amp;went=10"></script><noscript><a href="http://feedjit.com/">Live Traffic Stats</a></noscript>-->
+				<div class="row">
+					<div class="col-sm-6 col-xs-12">
+					</div>
+
+					<div class="col-sm-6 col-xs-12"><div>
+						</div>
+					</div>
+
+				</div>
+			<div class="section-content pe-wp-default">
+			
+						<p><label style="letter-spacing:normal;display:block;font:italic 18px Georgia, \&quot;Lucida Grande\&quot;, \&quot;Lucida Sans Unicode\&quot;, Helvetica, Arial, \&quot;Times New Roman\&quot;, Times, serif;">Email: support@gudmate.com</label></p>
+						<!--<label style="letter-spacing:normal;display:block;font:italic 18px Georgia, \&quot;Lucida Grande\&quot;, \&quot;Lucida Sans Unicode\&quot;, Helvetica, Arial, \&quot;Times New Roman\&quot;, Times, serif;">Phone: +91-8861626198</label>-->
+						<p><label style="letter-spacing:normal;display:block;font:italic 18px Georgia, \&quot;Lucida Grande\&quot;, \&quot;Lucida Sans Unicode\&quot;, Helvetica, Arial, \&quot;Times New Roman\&quot;, Times, serif;">Office: Bangalore</label></p>
+						<center><div style="margin-top:-100px;">
+					  <p><input type="text" placeholder="Your Email" id="from" style="color:black;"></p>
+					  <p><input type="text" placeholder="Service Title" id="subject" style="color:black;"></p>
+					  <p><textarea rows="10" cols="40" placeholder="Service Message" id="message" style="height:100px;color:black;"></textarea></p>
+					  <a data-role='none' class="btn btn-empty btn-lg" onclick='sendfdb();' href='#'><i class='fa fa-envelope-o'></i>&nbsp;&nbsp;Request</a>
+					  </div></center>
+			
+</div>
+
+		</div>
+	</div>
+</section>
+
+<!-- Footer -->
+<footer>
+	<div class="container">
+
+		<!-- Social Links -->
+		<ul class="social-list">
+					</ul>
+		<!-- End Social Links -->
+
+		<!-- Copyright -->
+		<p class="center grey">2014 © GUDMATE. All rights reserved.</p>
+		<!-- End Copyright -->
+
+
+<!-- BEGIN: Powered by Supercounters.com -->
+<center><script type="text/javascript" src="http://widget.supercounters.com/hit.js"></script><script type="text/javascript">sc_hit(1111701,1,9);</script><br><noscript><a href="http://www.supercounters.com">Tumblr Hit Counter</a></noscript>
+</center>
+<!-- END: Powered by Supercounters.com -->
+
+
+
+	</div>
+</footer>
+<!-- End Footer -->
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var peThemeOptions = {"import_demo":"default","logo":"","siteTitle":"GUDMATE","favicon":"","customCSS":"","customJS":"","contactEmail":"","contactSubject":"Contact Form Message","sidebars":null,"footerCopyright":"2014 \u00a9 GUDMATE. All rights reserved.","footerSocialLinks":null,"fontBody":"Lato","fontBody_custom":"","color1":"#06a8d1","minifyJS":"yes","minifyCSS":"no","adminThumbs":"yes","adminLogo":"http:\/\/gudmate.com\/wp-content\/themes\/floyd\/framework\/images\/framework_logo.png","adminUrl":"http:\/\/pixelentity.com"};
+var peContactForm = {"url":"http%3A%2F%2Fgudmate.com%2Fwp-admin%2Fadmin-ajax.php"};
+var peNewsletter = {"url":"http%3A%2F%2Fgudmate.com%2Fwp-admin%2Fadmin-ajax.php"};
+var _floyd = {"ajax-loading":"http:\/\/gudmate.com\/wp-content\/themes\/floyd\/images\/ajax-loader.gif","home_url":"http:\/\/gudmate.com\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='content/wp-content/themes/floyd/theme/compressed/theme.mincb21.js?ver=1394960484'></script>
+<script type='text/javascript' src='content/wp-content/plugins/contact-form-7/includes/js/jquery.form.min9d5c.js?ver=3.50.0-2014.02.05'></script>
+<script type='text/javascript' src='content/wp-content/plugins/contact-form-7/includes/js/scriptsf3df.js?ver=3.7.2'></script>
+
+</body>
+
+</html>

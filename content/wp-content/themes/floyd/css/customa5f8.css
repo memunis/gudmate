@@ -1,0 +1,186 @@
+.hiddenslide,
+.hide {
+	display: none;
+}
+
+img {
+	height: auto;
+}
+
+.wp-smiley {
+	margin: 0;
+}
+
+.pager {
+	overflow: hidden;
+}
+
+.pager li {
+	display: block;
+	float: left;
+	width: 50%;
+}
+
+.pager li.next {
+	text-align: right;
+}
+
+.social-icon .fa {
+	margin-top: -1px;
+}
+
+.flexslider .slides img {
+	height: auto;
+}
+
+.comment-author {
+	text-align: center;
+}
+
+html {
+	margin-top: 0 !important;
+}
+
+.logged-in #video-wrapper {
+	top: 32px;
+}
+
+#video-wrapper .buttonBar{
+	display: none;
+}
+
+.team-photo img {
+	height: auto;
+}
+
+@media (max-width: 767px) {
+	.section-staff .col-xs-12 {
+		max-width: 320px;
+		margin: 0 auto;
+		float: none;
+	}
+}
+
+.logged-in .navbar-fixed-top {
+	top: 32px;
+}
+
+.parallax {
+	color: #fff;
+	overflow: hidden;
+}
+
+.parallax h4.up {
+	margin-bottom: 50px;
+}
+
+.section.section-parallax,
+.section.section-clients {
+	min-height: 0;
+	padding: 0;
+}
+
+.nav .caret {
+	display: none;
+}
+
+.navbar-default .navbar-nav li > a:hover, .navbar-default .navbar-nav li > a:focus {
+	color: #333;
+	background-color: transparent;
+}
+
+.nav.navbar-nav li a {
+	display: inline-block;
+}
+
+.nav li > a {
+	padding: 10px 15px;
+}
+
+@media (min-width: 768px) {
+
+	.navbar-nav li > a {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+}
+
+.nav ul {
+	display: inline-block;
+	float: none;
+}
+
+.single-project #project {
+	margin-top: 60px;
+}
+
+.single-post .post-title h2 {
+	margin-top: 0;
+}
+
+.parallax .title {
+	color: #fff;
+}
+
+.parallax.section hr {
+	border-color: #fff;
+}
+
+.parallax {
+	background-size: cover;
+}
+
+@media (max-width: 1140px) {
+
+	.home-slider .slides > li h1 {
+		font-size: 50px;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+	.service-box {
+		margin-bottom: 50px;
+	}
+
+}
+
+@media (max-width: 768px) {
+
+	.service-box {
+		margin-bottom: 50px;
+	}
+
+	.filters {
+		padding: 0 25px;
+		display: block;
+	}
+
+	.project-category .border {
+		width: 7%;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+
+	.logged-in .navbar-fixed-top {
+		top: 0px;
+	}
+
+}
+
+@media (max-height:400px) {
+
+	header.navbar {
+		position: relative;
+		top: 0 !important;
+	}
+
+}
+
+.mobile #video-wrapper * {
+	display: none !important;
+}

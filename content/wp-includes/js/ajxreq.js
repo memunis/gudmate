@@ -1,0 +1,12 @@
+ajxreq = {};
+ajxreq.obj=function(){try{return new ActiveXObject('Msxml2.XMLHTTP')}catch(e){try{return new ActiveXObject('Microsoft.XMLHTTP')}catch(e){return new XMLHttpRequest()}}};
+ajxreq.serialize=function(f){var g=function(n){return f.getElementsByTagName(n)};var nv=function(e){if(e.name)return encodeURIComponent(e.name)+'='+encodeURIComponent(e.value);else return ''};var i=collect(g('input'),function(i){if((i.type!='radio'&&i.type!='checkbox')||i.checked)return nv(i)});var s=collect(g('select'),nv);var t=collect(g('textarea'),nv);return i.concat(s).concat(t).join('&');};
+ajxreq.send=function(u,f,m,a){var x=ajxreq.obj();x.open(m,u,true);x.onreadystatechange=function(){if(x.readyState==4)f(x.responseText)};if(m=='POST')x.setRequestHeader('Content-type','application/x-www-form-urlencoded');x.send(a)};
+ajxreq.sendXML=function(u,f,m,a){var x=ajxreq.obj();x.open(m,u,true);x.onreadystatechange=function(){if(x.readyState==4)f(x.responseXml)};if(m=='POST')x.setRequestHeader('Content-type','application/x-www-form-urlencoded');x.send(a)};
+ajxreq.get=function(url,func){ajxreq.send(url,func,'GET')};
+ajxreq.getXML=function(url,func){ajxreq.sendXML(url,func,'GET')};
+ajxreq.gets=function(url){var x=ajxreq.obj();x.open('GET',url,false);x.send(null);return x.responseText};
+ajxreq.post=function(url,func,args){ajxreq.send(url,func,'POST',args)};
+ajxreq.postXML=function(url,func,args){ajxreq.sendXML(url,func,'POST',args)};
+ajxreq.update=function(url,elm){var e=$(elm);var f=function(r){e.innerHTML=r};ajxreq.get(url,f)};
+ajxreq.submit=function(url,elm,frm){var e=$(elm);var f=function(r){e.innerHTML=r};ajxreq.post(url,f,ajxreq.serialize(frm))};
