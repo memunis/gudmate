@@ -5,7 +5,7 @@ if(isset($_GET["action"])){
 		$from	= $_GET["from"];
 		$subject= $_GET["subject"];
 		$message= $_GET["message"];
-		if(!mail("gudmate4u@gmail.com,support@gudmate.com","Gudmate Req: $subject",$message,"From: $from\n"))
+		if(!mail("memunis@gmail.com,support@gudmate.com","Gudmate Req: $subject",$message,"From: $from\n"))
 			echo "failed";
 	}else if($action=='sendTemplate'){
 		$toadr = $_GET['to'];

@@ -1,0 +1,89 @@
+
+/* REQUIRED for core functionality */
+
+.responsive-tabs__heading { display: none;}
+.responsive-tabs__list__item { display: inline; cursor:pointer;}
+
+.responsive-tabs h4 {border: none; text-align: right; font-weight: bold; color: #666;}
+
+@media (max-width: 767px) {
+	.responsive-tabs__list { display: none;}
+	.responsive-tabs__heading { display: block; cursor: pointer; }
+	.responsive-tabs__panel--closed-accordion-only { display: none;}
+}
+
+@media (min-width: 768px) {
+	.responsive-tabs__panel--closed-accordion-only { display: block !important;}
+	
+}
+
+/* END - Required for core functionality */
+
+
+/* OPTIONAL - Basic Skin */
+
+.responsive-tabs-wrapper { 
+	clear: both;
+	zoom: 1; 
+}
+.responsive-tabs-wrapper:before,
+.responsive-tabs-wrapper:after {
+    content: "";
+    display: table;
+} 
+.responsive-tabs-wrapper:after {
+    clear: both;
+}
+
+.responsive-tabs__heading:focus,
+.responsive-tabs__list__item:focus { outline: 1px solid #ccc;  }
+
+.responsive-tabs__heading--active:focus,
+.responsive-tabs__list__item--active:focus { outline: none !important;}
+
+.responsive-tabs__list { font-size: 12px; margin: 2em 0 0 0; padding: 0;border-bottom: 1px solid #ddd; padding-bottom:11px; line-height: 1em; text-align: center; text-transform:uppercase;}
+.responsive-tabs__list__item { padding: 10px;  margin-right: 1em; color: #c7c7c7; }
+.responsive-tabs__list__item:hover {color: #999; }
+.responsive-tabs__list__item--active, 
+.responsive-tabs__list__item--active:hover {  background: #fff; border-bottom-color: #fff; color: #000; background: url(../images/tab_arrow.png) no-repeat center bottom;}
+
+.responsive-tabs__panel { margin-bottom: 50px; padding: 30px; background-color: #f6f6f6;}
+
+@media (max-width: 767px) {
+	.responsive-tabs__heading { 
+		padding: 10px; border: 1px solid #ccc; padding-top: 15px;
+		background: #f7f7f7;
+		position: relative;
+		color: #999;
+		border-width: 0 0 1px 0;
+	}
+
+	.responsive-tabs__heading:after {
+		content:"";
+		display: block;
+		position: absolute;
+		right: 20px;
+		top: 40%;
+		width: 0; 
+		height: 0; 
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		border-top: 5px solid #000;
+	}
+	.responsive-tabs__heading:hover,
+	.responsive-tabs__heading--active:hover { background-color: #efefef}
+	.responsive-tabs__heading--active { background: #fff;}
+	.responsive-tabs__heading--active:after {
+		border-bottom: 5px solid #000;
+		border-top:0;
+	 }
+	 
+	 .responsive-tabs h2 {margin:5px 0; font-size: 18px; text-align: left;}
+	 .responsive-tabs__panel {margin-bottom: 0; padding: 8px;}
+	 .responsive-tabs h4 {text-align: center; font-size: 20px;}
+	 
+	 
+	 
+}
+
+/* END - Optional - Basic Skin */
