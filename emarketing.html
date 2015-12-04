@@ -10,139 +10,62 @@
 		<title>GudMate</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/jquery.bxslider.css" rel="stylesheet">
-    <link href="css/responsive-tabs.css" rel="stylesheet">
+    
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,700' rel='stylesheet' type='text/css'>
     <link href="css/custom.css" rel="stylesheet">
+	<link rel='shortcut icon' href='content/images/gm.ico'>
+    <style>
+    table {
+    border-collapse: collapse;
+    }
+    table, td, th {
+    border: 1px solid gray;
+    }
+    </style>
 
-		<link rel='shortcut icon' href='content/images/gm.ico'>
-<style type="text/css">
-	.H1 {
-    color: #317EAC;
-    font-family: Arial,Helvetica,sans-serif;
-    font-size: 27px;
-    font-weight: bold;
-    text-align: center;
-    text-rendering: optimizelegibility;
-	}
-
-	.callToActionTopAllArea {
-    position: fixed;
-    display: block;
-    width: 100%;
-    top: 0;
-    left: 0;
-    height: 40px;
-    z-index: 1001;
-    text-align: center;
-	}
-	.callToActionLinks, .callToActionLinksMin {
-    float: right;
-    width: 150px;
-	}
-	.callToActionTopAllArea .callToActionLinks .callToActionLink {
-    display: inline-block;
-    zoom: 1;
-    width: auto;
-    float: none;
-    padding-right: 20px;
-	}
-	/*.callToActionLink, .callToActionLink:active, .callToActionLink:visited {
-    text-decoration: none;
-    color: #fff !important;
-    border-bottom: solid 1px #fff !important;
-	}*/
-	.callToActionLink, .callToActionLink:active, .callToActionLink:visited, .callToActionLink:hover {
-    float: right;
-    display: inline-block;
-    position: relative;
-    height: 40px;
-    line-height: 40px;
-    vertical-align: middle;
-    width: 100%;
-    cursor: pointer;
-    overflow: hidden;
-    text-align: left;
-	}
-	a {
-    background: transparent;
-	}
-	/*.callToActionTopAllArea .callToActionLinks {
-    width: 100%;
-    height: 40px;
-    line-height: 40px;
-    white-space: nowrap;
-    font-size: 0;
-	}*/
-	.callToActionTopAllArea {
-    background-color: #000;
-    color: #fff;
-	}
-	.callToActionTopAllArea {
-    position: fixed;
-    display: block;
-    width: 100%;
-    top: 0;
-    left: 0;
-    height: 40px;
-    z-index: 1001;
-    text-align: center;
-	}
-	.fr {
-    float: right;
-	}
-	.call_number {
-    border-right: 1px solid black;
-    padding-right: 12px;
-    font-family: ClearSans-Bold;
-    font-size: 18px;
-	}
-	.enq {
-    padding-left: 12px;
-    font-family: ClearSans-Bold;
-    color: #944104;
-    font-size: 18px;
-    cursor: pointer;
-	}
-</style>
+        <link type="text/css" href="content/marketing_css/bottom.css" rel="stylesheet" />
+        <script type="text/javascript" src=" https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+        <script type="text/javascript" src="content/js/jquery.jcarousel.min.js"></script>
+        <script type="text/javascript" src="content/js/jquery.pikachoose.min.js"></script>
+        <script type="text/javascript" src="content/js/jquery.touchwipe.min.js"></script>
+        <script language="javascript">
+            $(document).ready(function (){
+                    $("#pikame").PikaChoose({showTooltips:true});
+                });
+        </script>
 </head>
 <body style="width:75%;margin-left:12.5%;">
-	<!--div class="callToActionTopAllArea">
-	<center><h3>E-Marketing</h3></center>
-
-	<div class="fr" style="padding-top:22px;">
-					<div class="call_number" style="color:#000">
-						Call:&nbsp;<span><b>+91 8861626198</b></span> 
-					</div>
-					<div class="fl enq ">
-						<span class="enquire_now">&nbsp;Enquire Now&nbsp;<img src="images/Enquire-Now-Down-Arrow.png"></span>
-						<div class="enquire_toggle" style="display:none;">
-						
-						</div>
-					</div>
-				</div>
-	<img src="imgs/brand.jpg" border="5 red"><br><br>
-	<img src="imgs/lyl.png" border="5 red"><br>
-	<div id="callToActionDiv" class="callToActionLinks">
-            
-                
-        </div>
-	</div-->
-
-
 
     <div>  
-        <br/><a href="index.html" id="logo"><img src="content/images/gm.png" style="height:30px;">&nbsp;&nbsp;GUDMATE</a>
+        <br/><a href="index.html" id="logo" style="color:black;text-decoration:none;font-weight:bold;"><img src="content/images/gm.png" style="height:30px;">&nbsp;&nbsp;GUDMATE</a>
         <div style="color:#000; float:right;">Call:&nbsp;<span><b>+91 8861626198</b></span></div>
     </div>
 
     <div>
         <center><h4 style="font-weight:bold;">Mega township at AECS layout, Whitefield, BANGALORE</h4></center>
     </div>
+
+
+    <div class="pikachoose">
+    <ul id="pikame" >
+        <li><a href="http://www.gudmate.com"><img src="content/marketing_imgs/slider_images/1.jpg"/></a><span>Villa Design elevation</span></li>
+        <li><a href="http://www.gudmate.com"><img src="content/marketing_imgs/slider_images/2.jpg"/></a><span>Club House</span></li>
+        <li><a href="http://www.gudmate.com"><img src="content/marketing_imgs/slider_images/3.jpg"/></a><span>Front Elevation</span></li>
+        <li><a href="http://www.gudmate.com"><img src="content/marketing_imgs/slider_images/4.jpg"/></a><span>House Design</span></li>
+        <li><a href="http://www.gudmate.com"><img src="content/marketing_imgs/slider_images/5.jpg"/></a><span>Master Plan</span></li>
+        <li><a href="http://www.gudmate.com"><img src="content/marketing_imgs/slider_images/6.jpg"/></a><span>Woods Elevation</span></li>
+    </ul>
+    </div>
+<br><br>
     <div>
+
             <div class="responsive-tabs__panel responsive-tabs__panel--active" aria-hidden="false" role="tabpanel" aria-labelledby="tablist2-tab1" id="tablist2-panel1" style="border-top: 1px solid">
+                <!--img class="pro-img img-responsive" src="content/marketing_imgs/images/jyothi_woods/woods_ele_west.jpg"-->
+
+    
+                <br/>
+
                 <img class="pro-img img-responsive" src="content/marketing_imgs/images/jyothi_woods/woods_ele_thumb.jpg">  
             
                     <p>Taking luxury to the new heights, Jyothi Woods is packed with a host
@@ -157,14 +80,14 @@
                         woods at AECS layout, Whitefield.</p>
                                         
              <div class="clearfix"></div>   
+
             </div>
+            <br><br>
 
+            <div class="am-oak responsive-tabs__panel responsive-tabs__panel--active" aria-hidden="false" role="tabpanel" aria-labelledby="tablist2-tab2" id="tablist2-panel2" style="display: block;text-align:left;">
+            <b style="color:black;">AMENITIES</b>
+            <ul>
 
-            <div class="am-oak responsive-tabs__panel responsive-tabs__panel--active" aria-hidden="false" role="tabpanel" aria-labelledby="tablist2-tab2" id="tablist2-panel2" style="display: block;">
-                <b>AMENITIES</b>
-                <ul>
-                                    
-                                    
                 <li>Club house</li>
 
                 <li>Fully equipped air-conditioned Gym</li>
@@ -207,17 +130,17 @@
 
                 <li>Centralised Laundry</li>
 
-                                </ul>
+            </ul>
     </div>    
 
         <div class="responsive-tabs__panel responsive-tabs__panel--active" aria-hidden="false" role="tabpanel" aria-labelledby="tablist2-tab4" id="tablist2-panel4" style="display: block;">
                       
-                      <table width="80%" border="0" class="table-bordered pad-med">
+        <table width="80%" class="table-bordered pad-med" >
           <tbody><tr>
-            <th width="25%" scope="row" colspan="2">SPECIFICATIONS</th>
+            <th width="25%" scope="row" colspan="2" style="text-align:left;">SPECIFICATIONS</th>
           </tr>
           <tr>
-            <th scope="row">STRUCTURE</th>
+            <th scope="row" style="text-align:left;">STRUCTURE</th>
             <td>
             <ul>
                 <li>RCC Framed Structure - Earth quake resistant RCC frame work based on IS 456:2000</li>
@@ -226,7 +149,7 @@
             </td>
           </tr>
           <tr>
-            <th scope="row">PLASTERING</th>
+            <th scope="row" style="text-align:left;">PLASTERING</th>
             <td>
             <ul>
                 <li>Internal - 2 coats of plastering in CM for walls</li>
@@ -235,7 +158,7 @@
             </td>
           </tr>
           <tr>
-            <th scope="row">DOORS &amp; WINDOWS</th>
+            <th scope="row" style="text-align:left;">DOORS &amp; WINDOWS</th>
             <td>
             <ul>
                 <li>Main Door - Designer Teak Wood frame (8 feet height) with threshold with Teak Veneer designer shutter of melamine Matt polish fixed with iron mongary of Haffle or equivalent make</li>
@@ -247,7 +170,7 @@
             </td>
           </tr>
           <tr>
-            <th scope="row">PAINTING</th>
+            <th scope="row" style="text-align:left;">PAINTING</th>
             <td>
             <ul>
                 <li>Internal - Smooth putty finish with 2 Coats of premium eco friendly Volatile Organic Compound (VOC) free paints (Royale Emulsion) of premium brand</li>
@@ -256,7 +179,7 @@
             </td>
           </tr>
           <tr>
-            <th scope="row">FLOORING</th>
+            <th scope="row" style="text-align:left;">FLOORING</th>
             <td>
             <ul>
                 <li>Living / Dining/Pooja - Appropriate size imported marble like Diana/Botachino or equivalent</li>
@@ -270,7 +193,7 @@
             </td>
           </tr>
           <tr>
-            <th scope="row">KITCHEN</th>
+            <th scope="row" style="text-align:left;">KITCHEN</th>
             <td>
             <ul>
                 <li>Modular Kitchen - Well designed modular kitchen of Italian make with in built chimney &amp; four burner hub. Granite platform , Municipal &amp; bore water supply. Polymarble sink of reputed make.</li>
@@ -278,7 +201,7 @@
             </td>
           </tr>
           <tr>
-            <th scope="row">BATH ROOMS</th>
+            <th scope="row" style="text-align:left;">BATH ROOMS</th>
             <td>
             <ul>
                 <li>Vanity wash basin/counter top basin with basin mixtures</li>
@@ -292,7 +215,7 @@
             </td>
           </tr>
           <tr>
-            <th scope="row">DADOING</th>
+            <th scope="row" style="text-align:left;">DADOING</th>
             <td>
             <ul>
                 <li>Toilets - Well designed concept with tiles (300x600 size) &amp; imported marble ledges</li>
@@ -301,7 +224,7 @@
             </td>
           </tr>
           <tr>
-            <th scope="row">ELECTRICAL</th>
+            <th scope="row" style="text-align:left;">ELECTRICAL</th>
             <td>
             
             <ul>
@@ -316,7 +239,7 @@
           </tr>
           
           <tr>
-            <th scope="row">HOME AUTOMATION</th>
+            <th scope="row" style="text-align:left;">HOME AUTOMATION</th>
             <td>
             
             <ul>
@@ -329,7 +252,7 @@
           
           
           <tr>
-            <th scope="row">FALSE CEILING</th>
+            <th scope="row" style="text-align:left;">FALSE CEILING</th>
             <td>
             
             <ul>
@@ -343,7 +266,7 @@
           
           
           <tr>
-            <th scope="row">TELEPHONE/INTERNET/ CABLE TV /INTERNAL SECURITY</th>
+            <th scope="row" style="text-align:left;">TELEPHONE/INTERNET/ CABLE TV /INTERNAL SECURITY</th>
             <td>
             
             <ul>
@@ -358,7 +281,7 @@
           </tr>
           
             <tr>
-            <th scope="row">WATER SUPPLY &amp; SEWERAGE WATER SYSTEM</th>
+            <th scope="row" style="text-align:left;">WATER SUPPLY &amp; SEWERAGE WATER SYSTEM</th>
             <td>
             
             <ul>
@@ -372,7 +295,7 @@
           
           
             <tr>
-            <th scope="row">GENERATOR</th>
+            <th scope="row" style="text-align:left;">GENERATOR</th>
             <td>
             
             <ul>
@@ -386,7 +309,7 @@
           
           
             <tr>
-            <th scope="row">FIRE SAFETY</th>
+            <th scope="row" style="text-align:left;">FIRE SAFETY</th>
             <td>
             
             <ul>
@@ -398,7 +321,7 @@
           </tr>
           
            <tr>
-            <th scope="row">AMBIENCE</th>
+            <th scope="row" style="text-align:left;">AMBIENCE</th>
             <td>
             
             <ul>
@@ -413,7 +336,7 @@
           </tr>
           
            <tr>
-            <th scope="row">SECURITY &amp; COMPOUND WALL</th>
+            <th scope="row" style="text-align:left;">SECURITY &amp; COMPOUND WALL</th>
             <td>
             
             <ul>
@@ -431,7 +354,7 @@
                     
                     
         </div>
-
+        <br>
 
 <div class="responsive-tabs__panel responsive-tabs__panel--active" aria-hidden="false" role="tabpanel" aria-labelledby="tablist2-tab5" id="tablist2-panel5" style="display: block;">
     <b>LOCATION</b>
@@ -440,7 +363,7 @@
 </div>
 
 
-<div class="responsive-tabs__panel responsive-tabs__panel--active" aria-hidden="false" role="tabpanel" aria-labelledby="tablist2-tab6" id="tablist2-panel6" style="display: block;">
+<!--div class="responsive-tabs__panel responsive-tabs__panel--active" aria-hidden="false" role="tabpanel" aria-labelledby="tablist2-tab6" id="tablist2-panel6" style="display: block;">
     <b>ENQUIRY</b><br/>
 <div class="result">Our representative will contact you soon!</div>
 
@@ -454,7 +377,7 @@
 
 </ul>
 
-</div>
+</div-->
 
 
     </div>
